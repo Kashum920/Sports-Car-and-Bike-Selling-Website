@@ -1,0 +1,48 @@
+.footer{
+    padding: 2rem 8.5%;
+    background: #222222;
+}
+.footer img{
+    border: 2px solid #222222;
+}
+.footer .link a{
+    color: #ffff;
+    font-size: 17px;
+}
+.footer .social span{
+    color: #fff;
+    cursor: pointer;
+}
+.footer .social span:hover{
+    color: #ff4500;
+}
+.footer .footer-bottom p{
+    color: #fff;
+    font-size: 17px;
+}
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background: #ff6347;
+    color: #fff;
+    border-radius: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3 ease-in-out;
+}
+.scrollTop span{
+    position: relative;
+    top: 10px;
+    left: 12px;
+}
+.scrollTop.show{
+    opacity: 1;
+}
+.scrollTop:hover{
+    background: #ff4500;
+}

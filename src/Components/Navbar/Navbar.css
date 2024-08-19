@@ -1,0 +1,40 @@
+.navbar{
+    width: 100%;
+}
+.top-navbar,
+.bottom-navbar{
+    padding: 0 8.5%;
+}
+.top-navbar .mail{
+    color: #fff;
+}
+.top-navbar button{
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.top-navbar .social span{
+    color: #fff;
+    cursor: pointer;
+}
+.bottom-navbar .logo img{
+    border: 2px solid #fff;
+}
+.bottom-navbar .navLinks a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 30px;
+    color: #222222;
+}
+.bottom-navbar .navLinks a:hover{
+    color: rgb(247, 168, 21);
+}
+.bottom-navbar .contact span{
+    font-size: 27px;
+}
+.bottom-navbar .contact h4{
+    font-weight: bold;
+    font-size: 18px;
+}

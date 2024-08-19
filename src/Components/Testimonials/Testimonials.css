@@ -1,0 +1,56 @@
+.testimonials{
+    padding: 6rem 8.5%;
+    width: 100%;
+    height: 100vh;
+    background: url(../Assets//test-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.testimonials .header h4{
+    color: #ec8b0c;
+    font-size: 22px;
+}
+.testimonials .header h2{
+    color: #fff;
+    font-size: 57px;
+    font-weight: bold;
+}
+.testimonials .test-row {
+    margin-top: 50px;
+}
+.test-row .test-box {
+    box-shadow: 0 4px 8px #7f7d7c;
+    background: #fff;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.test-box .title img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.test-box .title h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+}
+.test-box .title h6{
+    text-transform: uppercase;
+    color: #7f7d7c;
+}
+.test-box .circle{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    right: -100px;
+}
+.test-box .icon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 48px;
+    color: #fff;
+}

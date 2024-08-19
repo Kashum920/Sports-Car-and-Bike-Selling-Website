@@ -1,0 +1,59 @@
+.price {
+    padding: 3rem 8.5%;
+}
+.price .header h4{
+    color: #ec8b0c;
+    font-size: 22px;
+}
+.price .header h2{
+    color: #222222;
+    font-size: 57px;
+    font-weight: bold;
+}
+.price-row {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.price-row .price-box{
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    padding: 27px;
+    text-align: center;
+    background: #fff;
+}
+.price-box h6{
+    color: #ec8b0c;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.price-box h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #222222;
+}
+.price-box .features{
+    padding: 20px 0;
+    text-align: justify;
+}
+.price-box .features p{
+    position: relative;
+    margin-top: 9px;
+}
+.price-box .features p span{
+    display: inline-flex;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+    color: #ec8b0c;
+}
+.price-box button{
+    background: #ec8b0c;
+    color: #fff;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.price-box button:hover{
+    background: #d17b0a;
+}

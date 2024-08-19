@@ -1,0 +1,87 @@
+.contacts{
+    padding: 4.6rem 8.5%;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../Assets/contact-bg.png);
+    background-position: top;
+    background-size: cover;
+}
+.contacts form{
+    padding: 60px 50px;
+}
+.contacts form h1{
+    font-size: 44px;
+    font-weight: bold;
+    color: #222222;
+}
+.contacts form h1 span{
+    color: #ec8b0c;
+}
+.contacts form p{
+    color: #646060;
+    padding-bottom: 20px;
+}
+.contacts form .input-box{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.contacts form .input-box input,
+.contacts form textarea  {
+    width: 100%;
+    height: 100%;
+    background: #bac5c8;
+    color: #222222;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.contacts form .input-box input::placeholder,
+.contacts form textarea::placeholder{
+    color: #222222;
+}
+.contacts form .input-box span{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #222222;
+}
+.contacts form button{
+    width: 100%;
+    background: #ec8b0c;
+    padding: 16px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.contacts form button:hover{
+    background: #df840d;
+}
+.contacts .contact-box{
+    border: 1px solid #fff;
+    padding: 36px 28px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+.contacts .contact-box h4{
+    color: #fff;
+    font-size: 26px;
+}
+.contacts .contact-box p{
+    color: #fff;
+}
+.contacts .contact-box span{
+    color: #ec8b0c;
+    font-size: 36px;
+}

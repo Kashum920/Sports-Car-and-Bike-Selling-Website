@@ -1,0 +1,19 @@
+.brand {
+    padding: 20px 8.5%;
+}
+.brand .brand-box{
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+.brand .brand-box img{
+    width: 100%;
+    height: auto;
+    border: 3px solid #fff;
+}
+.brand .brand-box:hover img{
+    transform: scale(1.03);
+}
+.brand .brand-box h4{
+    color: #222222;
+}
